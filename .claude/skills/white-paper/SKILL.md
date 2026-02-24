@@ -1,5 +1,5 @@
 ---
-name: White Paper Generation
+name: white-paper-generation
 description: Generate authoritative white papers on clinical trial technology topics with research-backed content, references, data visualization concepts, and gate-worthy lead generation value.
 ---
 

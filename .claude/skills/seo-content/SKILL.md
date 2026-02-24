@@ -1,5 +1,5 @@
 ---
-name: SEO Content Strategy
+name: seo-content-strategy
 description: Create keyword-optimized content for clinical trial search terms including metadata, heading structure, internal linking strategy, and content briefs targeting EDC, clinical data management, eCRF, and CDMS keywords.
 ---
 

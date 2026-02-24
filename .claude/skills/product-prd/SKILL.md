@@ -1,5 +1,5 @@
 ---
-name: Product Requirements Document Generator
+name: product-requirements-document-generator
 description: Generate comprehensive PRDs for Talosix clinical trial EDC features, including regulatory considerations, user stories, and technical requirements.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

@@ -1,5 +1,5 @@
 ---
-name: Press Release Drafting
+name: press-release-drafting
 description: Draft press releases for Talosix company news including feature launches, partnerships, funding, and awards following AP style and clinical trial industry conventions.
 ---
 

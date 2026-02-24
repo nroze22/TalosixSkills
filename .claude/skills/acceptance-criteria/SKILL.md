@@ -1,5 +1,5 @@
 ---
-name: Acceptance Criteria Generator
+name: acceptance-criteria-generator
 description: Generate detailed acceptance criteria for Talosix EDC user stories including positive/negative test cases, edge cases, and regulatory compliance criteria.
 allowed-tools:
   - mcp__claude_ai_Atlassian__getJiraIssue

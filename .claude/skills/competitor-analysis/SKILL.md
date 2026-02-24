@@ -1,5 +1,5 @@
 ---
-name: Competitor Analysis
+name: competitor-analysis
 description: Analyze competitors in the EDC and clinical trial technology space including feature comparison, pricing, market positioning, and SWOT analysis.
 allowed-tools:
   - WebSearch

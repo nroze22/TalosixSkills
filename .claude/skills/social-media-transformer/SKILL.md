@@ -1,5 +1,5 @@
 ---
-name: Social Media Transformer
+name: social-media-transformer
 description: Transform any content into platform-optimized social media posts for LinkedIn, Twitter/X with A/B variants, clinical trial hashtag strategy, engagement predictions, and optimal posting schedules for clinical operations audiences.
 argument-hint: [content-to-transform]
 allowed-tools:

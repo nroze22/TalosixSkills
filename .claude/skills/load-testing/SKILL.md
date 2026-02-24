@@ -1,5 +1,5 @@
 ---
-name: Load Testing
+name: load-testing
 description: Design and execute load testing plans for Talosix EDC systems with performance benchmarks, tool setup (k6, Artillery), result analysis, and concurrent clinical site user simulation.
 allowed-tools:
   - Read

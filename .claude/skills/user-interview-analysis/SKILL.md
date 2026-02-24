@@ -1,5 +1,5 @@
 ---
-name: User Interview Analysis
+name: user-interview-analysis
 description: Analyze user interview transcripts from clinical trial stakeholders (CROs, sponsors, sites) to extract themes, pain points, opportunities, and persona insights.
 allowed-tools:
   - mcp__claude_ai_Atlassian__createConfluencePage

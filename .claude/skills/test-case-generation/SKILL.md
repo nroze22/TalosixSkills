@@ -1,9 +1,6 @@
 ---
 name: test-case-generation
-description: >
-  Generate comprehensive test cases from Jira stories for Talosix clinical trial EDC platform.
-  Produces positive, negative, boundary, and edge cases with regulatory coverage.
-  Output is formatted for direct import into Zephyr Scale.
+description: "Generate comprehensive test cases from Jira stories for Talosix clinical trial EDC platform. Produces positive, negative, boundary, and edge cases with regulatory coverage. Output is formatted for direct import into Zephyr Scale."
 allowed-tools:
   - Read
   - Grep

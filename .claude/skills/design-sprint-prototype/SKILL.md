@@ -1,11 +1,6 @@
 ---
-name: Design Sprint Prototype
-description: >
-  Rapid prototyping workflow for design sprints inspired by the thoughtbot methodology.
-  Gathers context from Confluence PRDs and user research, defines prototype scope,
-  generates functional HTML/Tailwind wireframes with visual design, populates realistic
-  clinical trial sample data, and wires up clickable navigation. Outputs a complete
-  prototype ready for usability testing with clinical site users, CRAs, and data managers.
+name: design-sprint-prototype
+description: "Rapid prototyping workflow for design sprints inspired by the thoughtbot methodology. Gathers context from Confluence PRDs and user research, defines prototype scope, generates functional HTML/Tailwind wireframes with visual design, populates realistic clinical trial sample data, and wires up clickable navigation. Outputs a complete prototype ready for usability testing with clinical site users, CRAs, and data managers."
 allowed-tools:
   - Read
   - Grep

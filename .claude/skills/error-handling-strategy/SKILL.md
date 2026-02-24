@@ -1,5 +1,5 @@
 ---
-name: Error Handling Strategy
+name: error-handling-strategy
 description: Design error handling patterns for Talosix EDC systems with structured logging for audit trails, user-friendly error messages, recovery patterns, and clinical trial data integrity protection.
 allowed-tools:
   - Read

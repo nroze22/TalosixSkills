@@ -1,5 +1,5 @@
 ---
-name: Deal Risk Assessment
+name: deal-risk-assessment
 description: Assess deal health and risk factors for Talosix EDC opportunities, score deals across multiple dimensions, identify red flags, and recommend actions to improve pipeline forecast accuracy.
 ---
 

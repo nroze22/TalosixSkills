@@ -1,5 +1,5 @@
 ---
-name: Feature Scoring and Prioritization
+name: feature-scoring-and-prioritization
 description: Data-driven feature prioritization for Talosix EDC using RICE, MoSCoW, and weighted scoring frameworks with regulatory impact consideration.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

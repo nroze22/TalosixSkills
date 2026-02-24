@@ -1,5 +1,5 @@
 ---
-name: Webinar Planning
+name: webinar-planning
 description: Plan and produce educational webinars for clinical trial audiences including topic selection, speaker preparation, content outlines, promotion strategy, and follow-up sequences.
 ---
 

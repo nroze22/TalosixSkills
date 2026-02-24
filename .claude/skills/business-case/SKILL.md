@@ -1,5 +1,5 @@
 ---
-name: Business Case Builder
+name: business-case-builder
 description: Build comprehensive business cases for new Talosix EDC features and investments, including market analysis, ROI projections, and clinical trial industry metrics.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

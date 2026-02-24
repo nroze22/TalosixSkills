@@ -1,5 +1,5 @@
 ---
-name: Contract Review for Clinical Trial Software
+name: contract-review-for-clinical-trial-software
 description: Review contract terms for clinical trial EDC software agreements, flag risk areas, suggest modifications, and ensure SLA compliance and proper data handling requirements.
 ---
 

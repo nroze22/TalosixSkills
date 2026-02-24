@@ -1,5 +1,5 @@
 ---
-name: ROI Calculator Builder
+name: roi-calculator-builder
 description: Build custom ROI calculators for Talosix EDC prospects, factoring in study setup time, data query reduction, monitoring efficiency, and industry benchmarks to quantify the business case.
 ---
 

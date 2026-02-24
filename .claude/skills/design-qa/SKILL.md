@@ -1,11 +1,6 @@
 ---
-name: Design QA
-description: >
-  Automated design QA that checks implementation code against Figma design specs.
-  Uses the Figma MCP server to read design data, then compares spacing, colors,
-  typography, and responsive behavior against the codebase. Includes WCAG 2.1 AA
-  accessibility auditing and clinical trial EDC-specific UI checks for form
-  clarity, error visibility, and regulatory compliance patterns.
+name: design-qa
+description: "Automated design QA that checks implementation code against Figma design specs. Uses the Figma MCP server to read design data, then compares spacing, colors, typography, and responsive behavior against the codebase. Includes WCAG 2.1 AA accessibility auditing and clinical trial EDC-specific UI checks for form clarity, error visibility, and regulatory compliance patterns."
 allowed-tools:
   - Read
   - Grep

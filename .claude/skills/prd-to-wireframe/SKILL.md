@@ -1,11 +1,6 @@
 ---
-name: PRD to Wireframe Prototype
-description: >
-  Converts Product Requirements Documents from Confluence into interactive
-  HTML/React wireframe prototypes with clinical trial EDC patterns. Pulls PRDs
-  via Atlassian MCP, extracts user stories and acceptance criteria, then generates
-  a fully navigable prototype with Tailwind CSS styling ready for local preview
-  or Figma Code-to-Canvas export.
+name: prd-to-wireframe-prototype
+description: "Converts Product Requirements Documents from Confluence into interactive HTML/React wireframe prototypes with clinical trial EDC patterns. Pulls PRDs via Atlassian MCP, extracts user stories and acceptance criteria, then generates a fully navigable prototype with Tailwind CSS styling ready for local preview or Figma Code-to-Canvas export."
 allowed-tools:
   - Read
   - Grep

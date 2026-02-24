@@ -1,5 +1,5 @@
 ---
-name: Competitive Battlecard Generator
+name: competitive-battlecard-generator
 description: Generate sales-focused competitive battlecards comparing Talosix EDC against major competitors with feature comparisons, objection handling, win/loss insights, and pricing positioning.
 ---
 

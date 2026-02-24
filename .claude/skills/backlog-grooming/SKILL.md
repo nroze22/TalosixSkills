@@ -1,5 +1,5 @@
 ---
-name: Backlog Grooming
+name: backlog-grooming
 description: Assist with backlog refinement for Talosix EDC development, reviewing stories for completeness, adding acceptance criteria, and identifying dependencies.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

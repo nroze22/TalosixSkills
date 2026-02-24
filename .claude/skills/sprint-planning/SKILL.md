@@ -1,5 +1,5 @@
 ---
-name: Sprint Planning
+name: sprint-planning
 description: Help plan sprints for Talosix EDC development with story point estimation, capacity assessment, sprint goal definition, and Jira integration.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

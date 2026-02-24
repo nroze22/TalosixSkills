@@ -1,5 +1,5 @@
 ---
-name: Case Study Creation
+name: case-study-creation
 description: Create compelling customer case studies for Talosix EDC using problem/solution/results format with clinical trial metrics, appropriate anonymization, and approval workflows.
 ---
 

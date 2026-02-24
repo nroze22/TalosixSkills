@@ -1,9 +1,6 @@
 ---
 name: zephyr-test-sync
-description: >
-  Sync test artifacts with Zephyr Scale for the Talosix EDC platform.
-  Map test cases to Jira requirements, generate execution reports,
-  track coverage metrics, and manage test cycles and versions.
+description: "Sync test artifacts with Zephyr Scale for the Talosix EDC platform. Map test cases to Jira requirements, generate execution reports, track coverage metrics, and manage test cycles and versions."
 ---
 
 # Zephyr Scale Test Sync

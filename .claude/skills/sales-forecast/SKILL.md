@@ -1,5 +1,5 @@
 ---
-name: Sales Forecast & Pipeline Analytics
+name: sales-forecast-pipeline-analytics
 description: Forecast Talosix pipeline and revenue with weighted pipeline analysis, historical conversion rates, and segmentation by deal type, customer type, and study phase.
 ---
 

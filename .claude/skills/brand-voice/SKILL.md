@@ -1,5 +1,5 @@
 ---
-name: Talosix Brand Voice
+name: talosix-brand-voice
 description: Encodes Talosix brand voice, tone, vocabulary, and communication style for consistent content across all channels. Automatically loaded by other marketing skills as background context.
 user-invocable: false
 ---
@@ -64,25 +64,26 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 
 ### Preferred Terms
 
-| Use This | Instead Of | Why |
-|----------|-----------|-----|
+| Use This                      | Instead Of                              | Why                           |
+| ----------------------------- | --------------------------------------- | ----------------------------- |
 | Electronic Data Capture (EDC) | data entry system, data collection tool | Industry standard terminology |
-| eCRF | electronic form, digital form | Clinical context specificity |
-| study build | form creation, setup, configuration | How the industry describes it |
-| edit checks | validation rules, data validations | EDC-specific terminology |
-| query management | error handling, issue tracking | Clinical data management term |
-| study startup | onboarding, implementation | Clinical ops standard term |
-| database lock | data freeze, project completion | Regulatory milestone term |
-| audit trail | change log, history | 21 CFR Part 11 term |
-| site | clinic, location, facility | Clinical trial standard |
-| subjects / participants | patients (in data context) | Regulatory precision |
-| sponsor | client, customer (in CRO context) | Industry role term |
-| protocol | study plan, trial plan | Regulatory document name |
-| investigator | doctor, physician (in trial context) | GCP role term |
+| eCRF                          | electronic form, digital form           | Clinical context specificity  |
+| study build                   | form creation, setup, configuration     | How the industry describes it |
+| edit checks                   | validation rules, data validations      | EDC-specific terminology      |
+| query management              | error handling, issue tracking          | Clinical data management term |
+| study startup                 | onboarding, implementation              | Clinical ops standard term    |
+| database lock                 | data freeze, project completion         | Regulatory milestone term     |
+| audit trail                   | change log, history                     | 21 CFR Part 11 term           |
+| site                          | clinic, location, facility              | Clinical trial standard       |
+| subjects / participants       | patients (in data context)              | Regulatory precision          |
+| sponsor                       | client, customer (in CRO context)       | Industry role term            |
+| protocol                      | study plan, trial plan                  | Regulatory document name      |
+| investigator                  | doctor, physician (in trial context)    | GCP role term                 |
 
 ### Words and Phrases to Avoid
 
 **Marketing buzzwords that undermine clinical credibility:**
+
 - "Disruptive" / "disrupting" -- clinical trials need stability, not disruption
 - "Revolutionary" / "game-changer" -- sounds like consumer marketing
 - "Cutting-edge" / "bleeding-edge" -- our audience is risk-averse for good reason
@@ -97,6 +98,7 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 - "AI-powered" -- only use if describing a genuine ML/AI capability with specificity
 
 **Compliance-sensitive phrases to never use:**
+
 - "FDA approved" (for software) -- software is not "approved"; use "21 CFR Part 11 compliant"
 - "Guarantees compliance" -- no software guarantees compliance; use "supports compliance with"
 - "Eliminates risk" -- use "reduces risk" or "mitigates risk"
@@ -106,16 +108,19 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 ### Power Words That Resonate with Our Audience
 
 **Operational efficiency words:**
+
 - Streamlined, accelerated, reduced, optimized, simplified
 - Configurable, adaptable, scalable, reusable
 - Automated, integrated, standardized
 
 **Trust and compliance words:**
+
 - Compliant, validated, auditable, traceable, secure
 - Documented, reproducible, transparent, inspection-ready
 - Regulatory-grade, GCP-aligned, Part 11-ready
 
 **Outcome words:**
+
 - Faster, cleaner, fewer queries, shorter timelines
 - Higher data quality, lower error rates, reduced cycle times
 - More studies per data manager, less rework, fewer protocol deviations
@@ -129,6 +134,7 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 **Pattern:** Lead with the outcome, then explain how.
 
 **Example:**
+
 > Build studies in days, not months. Talosix EDC gives clinical data managers a library-driven study build experience that eliminates repetitive configuration and gets sites entering data faster.
 
 **Avoid:** Feature dumps without context. Technical specs without benefits.
@@ -140,6 +146,7 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 **Pattern:** Hook with a pain point or insight, explore with evidence, connect (lightly) to how Talosix thinks about the problem.
 
 **Example:**
+
 > The average clinical trial generates over 3.6 million data points. When even 1% of those require manual queries, your data management team spends weeks in resolution cycles that delay database lock. The question is not whether to automate edit checks -- it is how to write them so they catch real issues without flooding sites with false positives.
 
 **Avoid:** Hard-sell language. Product pitches disguised as thought leadership. Content that reads like a press release.
@@ -151,6 +158,7 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 **Pattern:** Hook (provocative statement or question) -> Story or data point -> Insight -> Soft CTA or question.
 
 **Example:**
+
 > Most EDC vendors will tell you study build takes "weeks."
 >
 > But they are measuring from kickoff to go-live.
@@ -178,6 +186,7 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 **Example (subject line):** "3 edit check patterns that reduce query rates by 40%"
 
 **Example (body opening):**
+
 > If you manage clinical data for more than two active studies, you have probably noticed that some edit checks generate more noise than signal. We analyzed query patterns across 200+ studies and found three check designs that consistently reduce query volume without missing real data issues.
 
 **Avoid:** Salesy openers ("Hope you are doing well!"). Multiple CTAs. Long paragraphs. Exclamation points.
@@ -189,11 +198,13 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 **Pattern:** State what it does, then how to do it, then edge cases.
 
 **Example:**
+
 > **Edit Check Deployment**
 >
 > Edit checks can be deployed to a live study without taking the study offline. Changes apply to new data entry only; existing data is not retroactively checked unless a re-fire is explicitly triggered.
 >
 > To deploy updated edit checks:
+>
 > 1. Navigate to Study Configuration > Edit Checks
 > 2. Select the checks to deploy
 > 3. Review the impact summary (shows affected forms and expected fire rate)
@@ -210,6 +221,7 @@ We explain complex things simply. We do not dumb down clinical trial operations 
 **Pattern:** Problem they face -> How Talosix solves it -> Proof it works -> Next step.
 
 **Example:**
+
 > **The Problem:** Average study build takes 8-12 weeks, consuming data management resources and delaying site activation.
 >
 > **Talosix Approach:** Library-driven eCRF design with protocol-to-form automation reduces study build to 2-4 weeks for standard designs.

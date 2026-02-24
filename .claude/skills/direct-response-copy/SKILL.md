@@ -1,5 +1,5 @@
 ---
-name: Direct Response Copy
+name: direct-response-copy
 description: Write high-converting direct response copy using PAS, AIDA, StoryBrand, and Before-After-Bridge frameworks tailored for clinical trial buyer psychology with A/B variants for landing pages, emails, ads, and CTAs.
 argument-hint: [asset-type] [audience]
 allowed-tools:

@@ -1,5 +1,5 @@
 ---
-name: Release Notes Generator
+name: release-notes-generator
 description: Generate release notes from Jira tickets and git history in multiple formats (internal, customer-facing, regulatory) with compliance and validation impact statements.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

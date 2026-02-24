@@ -1,5 +1,5 @@
 ---
-name: CI/CD Pipeline Design
+name: cicd-pipeline-design
 description: Design and optimize CI/CD pipelines for Talosix EDC systems with GxP-compliant quality gates, automated testing, security scanning, and validated deployment strategies.
 allowed-tools:
   - Read

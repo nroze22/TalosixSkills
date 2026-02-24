@@ -1,5 +1,5 @@
 ---
-name: Stakeholder Alignment
+name: stakeholder-alignment
 description: Create stakeholder alignment documents including RACI matrices, decision logs, and communication plans for cross-functional clinical trial feature development.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

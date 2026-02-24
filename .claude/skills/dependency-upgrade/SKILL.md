@@ -1,5 +1,5 @@
 ---
-name: Dependency Upgrade Planning
+name: dependency-upgrade-planning
 description: Plan and execute dependency upgrades for Talosix EDC systems with risk assessment, compatibility checking, regression testing, and change control for validated environments.
 allowed-tools:
   - Read

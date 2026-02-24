@@ -1,5 +1,5 @@
 ---
-name: Sales Proposal Builder
+name: sales-proposal-builder
 description: Build professional proposals for Talosix EDC and clinical trial software deals including executive summary, solution overview, pricing, implementation timeline, support model, and ROI projections.
 ---
 

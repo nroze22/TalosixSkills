@@ -1,5 +1,5 @@
 ---
-name: Email Campaign Creation
+name: email-campaign-creation
 description: Create email sequences for clinical trial audiences including nurture campaigns, product announcements, and event invitations with A/B test variants and CAN-SPAM compliance.
 ---
 

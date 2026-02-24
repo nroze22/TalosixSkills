@@ -1,9 +1,6 @@
 ---
 name: playwright-test-generation
-description: >
-  Generate Playwright automated test scripts for the Talosix EDC platform.
-  Uses Page Object Model, data-testid selectors, and covers clinical trial
-  UI patterns including forms, validation, and e-signatures.
+description: "Generate Playwright automated test scripts for the Talosix EDC platform. Uses Page Object Model, data-testid selectors, and covers clinical trial UI patterns including forms, validation, and e-signatures."
 allowed-tools:
   - Read
   - Grep

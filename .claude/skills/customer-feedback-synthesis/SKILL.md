@@ -1,5 +1,5 @@
 ---
-name: Customer Feedback Synthesis
+name: customer-feedback-synthesis
 description: Synthesize customer feedback from multiple sources, categorize by theme and severity, and generate actionable recommendations for the Talosix EDC platform.
 allowed-tools:
   - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql

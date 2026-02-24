@@ -1,11 +1,6 @@
 ---
-name: Figma Component Generator
-description: >
-  Generates detailed, Figma-ready component specifications from requirements.
-  Produces comprehensive specs covering all states, variants, design token
-  mappings, interaction definitions, responsive behavior, and accessibility
-  requirements. Specializes in clinical trial EDC components such as CRF fields,
-  visit schedule cells, query badges, and audit trail entries.
+name: figma-component-generator
+description: "Generates detailed, Figma-ready component specifications from requirements. Produces comprehensive specs covering all states, variants, design token mappings, interaction definitions, responsive behavior, and accessibility requirements. Specializes in clinical trial EDC components such as CRF fields, visit schedule cells, query badges, and audit trail entries."
 argument-hint: "[component-name]"
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Landing Page Copy
+name: landing-page-copy
 description: Generate conversion-optimized landing page copy for Talosix EDC campaigns with hero sections, feature highlights, CTAs, and social proof tailored to CROs, sponsors, and sites.
 ---
 

@@ -1,25 +1,6 @@
 ---
 name: skill-router
-description: >
-  MASTER SKILL ROUTER - Automatic intent detection and skill routing for the entire Talosix skill library (92 skills).
-  This skill is loaded as background knowledge so Claude can automatically detect what the user is trying to accomplish
-  and invoke the correct skill(s) without the user needing to know skill names. Covers: product management, engineering,
-  QA, testing, sales, marketing, content creation, lead generation, outreach, regulatory, compliance, deployment,
-  release, operations, design, finance, HR, PRDs, code review, test cases, demos, RFPs, competitive analysis, UI design,
-  deployments, FDA audits, marketing campaigns, lead research, outreach emails, wireframes, one-pagers, social media,
-  test strategy, user interviews, incident response, SOPs, compliance checks, onboarding, job postings, blog posts,
-  case studies, white papers, press releases, ad copy, landing pages, email campaigns, webinars, SEO, security audits,
-  performance optimization, database migrations, API design, technical design, refactoring, debugging, load testing,
-  CI/CD, documentation, error handling, dependency upgrades, technical debt, sprint planning, backlog grooming,
-  release notes, acceptance criteria, roadmap planning, business cases, feature scoring, stakeholder alignment,
-  customer feedback, discovery calls, deal risk, ROI calculators, contract review, reference matching, sales forecasts,
-  sales proposals, competitive battlecards, demo scripts, brand voice, content atomization, direct response copy,
-  lead magnets, content calendars, social media transformation, LinkedIn prospecting, ABM research, SEO audits,
-  validation protocols, change control, risk assessment, traceability matrices, regulatory research, SOP generation,
-  audit preparation, deploy plans, deploy checklists, rollback plans, release monitoring, hotfix procedures,
-  incident response, retrospectives, meeting facilitation, design systems, wireframe generation, Figma to code,
-  user flow generation, design QA, Figma component generation, design sprint prototypes, payment reconciliation,
-  job descriptions, onboarding checklists, policy documents.
+description: "MASTER SKILL ROUTER - Automatic intent detection and skill routing for the entire Talosix skill library (92 skills). This skill is loaded as background knowledge so Claude can automatically detect what the user is trying to accomplish and invoke the correct skill(s) without the user needing to know skill names. Covers: product management, engineering, QA, testing, sales, marketing, content creation, lead generation, outreach, regulatory, compliance, deployment, release, operations, design, finance, HR, PRDs, code review, test cases, demos, RFPs, competitive analysis, UI design, deployments, FDA audits, marketing campaigns, lead research, outreach emails, wireframes, one-pagers, social media, test strategy, user interviews, incident response, SOPs, compliance checks, onboarding, job postings, blog posts, case studies, white papers, press releases, ad copy, landing pages, email campaigns, webinars, SEO, security audits, performance optimization, database migrations, API design, technical design, refactoring, debugging, load testing, CI/CD, documentation, error handling, dependency upgrades, technical debt, sprint planning, backlog grooming, release notes, acceptance criteria, roadmap planning, business cases, feature scoring, stakeholder alignment, customer feedback, discovery calls, deal risk, ROI calculators, contract review, reference matching, sales forecasts, sales proposals, competitive battlecards, demo scripts, brand voice, content atomization, direct response copy, lead magnets, content calendars, social media transformation, LinkedIn prospecting, ABM research, SEO audits, validation protocols, change control, risk assessment, traceability matrices, regulatory research, SOP generation, audit preparation, deploy plans, deploy checklists, rollback plans, release monitoring, hotfix procedures, incident response, retrospectives, meeting facilitation, design systems, wireframe generation, Figma to code, user flow generation, design QA, Figma component generation, design sprint prototypes, payment reconciliation, job descriptions, onboarding checklists, policy documents."
 user-invocable: false
 ---
 
