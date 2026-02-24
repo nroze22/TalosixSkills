@@ -1,11 +1,7 @@
 ---
 name: database-migration
-description: Plan and execute database migrations with zero-downtime for Talosix EDC systems. Covers rollback strategy, data validation, audit trail preservation, and PostgreSQL-specific patterns.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Plan and execute database migrations with zero-downtime for Talosix EDC systems. Covers rollback strategy, data validation, audit trail preservation, and PostgreSQL-specific patterns."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Database Migration for Clinical Trial EDC Systems

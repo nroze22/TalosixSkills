@@ -1,10 +1,7 @@
 ---
 name: test-planning
 description: "Plan test cycles with resource allocation, entry/exit criteria, environment requirements, defect management, and regression test selection for the Talosix EDC platform."
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
+allowed-tools: Read, Grep, Glob
 ---
 
 # Test Planning

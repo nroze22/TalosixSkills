@@ -1,11 +1,7 @@
 ---
 name: backlog-grooming
-description: Assist with backlog refinement for Talosix EDC development, reviewing stories for completeness, adding acceptance criteria, and identifying dependencies.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__editJiraIssue
-  - mcp__claude_ai_Atlassian__addCommentToJiraIssue
+description: "Assist with backlog refinement for Talosix EDC development, reviewing stories for completeness, adding acceptance criteria, and identifying dependencies."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__editJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue
 argument-hint: "[Jira project key or specific ticket IDs to review] [Optional: 'full audit' or 'pre-sprint']"
 ---
 

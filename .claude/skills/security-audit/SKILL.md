@@ -1,11 +1,7 @@
 ---
 name: security-audit
-description: Comprehensive security audit for Talosix clinical trial EDC software. Covers OWASP Top 10, HIPAA, 21 CFR Part 11, authentication, authorization, encryption, dependency scanning, and PHI protection.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Comprehensive security audit for Talosix clinical trial EDC software. Covers OWASP Top 10, HIPAA, 21 CFR Part 11, authentication, authorization, encryption, dependency scanning, and PHI protection."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Security Audit for Clinical Trial EDC Systems

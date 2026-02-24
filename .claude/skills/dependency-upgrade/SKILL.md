@@ -1,11 +1,7 @@
 ---
-name: dependency-upgrade-planning
-description: Plan and execute dependency upgrades for Talosix EDC systems with risk assessment, compatibility checking, regression testing, and change control for validated environments.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+name: dependency-upgrade
+description: "Plan and execute dependency upgrades for Talosix EDC systems with risk assessment, compatibility checking, regression testing, and change control for validated environments."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Dependency Upgrade Planning for Talosix EDC

@@ -1,10 +1,7 @@
 ---
 name: user-flow-generator
 description: "Generates detailed user flow diagrams in Mermaid syntax from Jira stories or written requirements. Pulls story details via Atlassian MCP, identifies happy paths, error paths, decision points, and system actions. Specializes in clinical trial EDC workflows including enrollment, CRF data entry, query lifecycle, e-signature, and SAE reporting flows."
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
+allowed-tools: Read, Grep, Glob
 argument-hint: "[jira-story-key-or-workflow-name]"
 ---
 

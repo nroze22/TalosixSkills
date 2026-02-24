@@ -1,11 +1,7 @@
 ---
 name: release-monitoring
-description: Post-release monitoring plan for Talosix EDC deployments. Covers key metrics, alert thresholds, smoke test execution, and escalation procedures.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Post-release monitoring plan for Talosix EDC deployments. Covers key metrics, alert thresholds, smoke test execution, and escalation procedures."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Release Monitoring Skill

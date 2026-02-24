@@ -1,12 +1,7 @@
 ---
-name: business-case-builder
-description: Build comprehensive business cases for new Talosix EDC features and investments, including market analysis, ROI projections, and clinical trial industry metrics.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__getConfluencePage
-  - mcp__claude_ai_Atlassian__createConfluencePage
-  - WebSearch
+name: business-case
+description: "Build comprehensive business cases for new Talosix EDC features and investments, including market analysis, ROI projections, and clinical trial industry metrics."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__getConfluencePage, mcp__claude_ai_Atlassian__createConfluencePage, WebSearch
 argument-hint: "[Feature or investment to evaluate, e.g. 'eConsent module', 'RTSM integration', 'AI-powered edit checks']"
 ---
 

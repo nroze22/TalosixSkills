@@ -1,11 +1,7 @@
 ---
 name: stakeholder-alignment
-description: Create stakeholder alignment documents including RACI matrices, decision logs, and communication plans for cross-functional clinical trial feature development.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__createConfluencePage
-  - mcp__claude_ai_Atlassian__getConfluencePage
+description: "Create stakeholder alignment documents including RACI matrices, decision logs, and communication plans for cross-functional clinical trial feature development."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__getConfluencePage
 argument-hint: "[Initiative or feature name requiring cross-functional alignment]"
 ---
 

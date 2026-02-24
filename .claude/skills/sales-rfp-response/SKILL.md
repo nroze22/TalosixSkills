@@ -1,6 +1,6 @@
 ---
-name: sales-rfp-response-generator
-description: Generate comprehensive RFP responses for Talosix clinical trial EDC, addressing security questionnaires, vendor assessments, compliance certifications, and therapeutic area tailoring.
+name: sales-rfp-response
+description: "Generate comprehensive RFP responses for Talosix clinical trial EDC, addressing security questionnaires, vendor assessments, compliance certifications, and therapeutic area tailoring."
 ---
 
 # Sales RFP Response Generator

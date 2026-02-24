@@ -1,11 +1,7 @@
 ---
 name: hotfix-procedure
-description: Emergency hotfix process for Talosix EDC production issues. Covers expedited change control, abbreviated but compliant validation, and communication/notification procedures.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Emergency hotfix process for Talosix EDC production issues. Covers expedited change control, abbreviated but compliant validation, and communication/notification procedures."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Hotfix Procedure Skill

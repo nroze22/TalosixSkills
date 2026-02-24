@@ -1,12 +1,7 @@
 ---
 name: customer-feedback-synthesis
-description: Synthesize customer feedback from multiple sources, categorize by theme and severity, and generate actionable recommendations for the Talosix EDC platform.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__getConfluencePage
-  - mcp__claude_ai_Atlassian__createConfluencePage
+description: "Synthesize customer feedback from multiple sources, categorize by theme and severity, and generate actionable recommendations for the Talosix EDC platform."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__getConfluencePage, mcp__claude_ai_Atlassian__createConfluencePage
 argument-hint: "[Paste feedback, provide file paths, or specify Jira filter/label for customer-reported issues]"
 ---
 

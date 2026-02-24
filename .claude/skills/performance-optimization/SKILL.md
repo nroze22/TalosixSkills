@@ -1,11 +1,7 @@
 ---
 name: performance-optimization
-description: Analyze and optimize application performance for Talosix EDC systems. Covers database query optimization, caching strategies, frontend and backend profiling, and load testing recommendations.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Analyze and optimize application performance for Talosix EDC systems. Covers database query optimization, caching strategies, frontend and backend profiling, and load testing recommendations."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Performance Optimization for Clinical Trial EDC Systems

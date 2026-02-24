@@ -1,13 +1,7 @@
 ---
 name: figma-to-code
 description: "Converts Figma designs into production-ready React/TypeScript components with Tailwind CSS. Uses the Figma MCP server to read design data, extracts component structure and design tokens, generates accessible components with proper typing, and outputs Storybook stories. Follows Talosix EDC component conventions."
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Write
-  - Edit
+allowed-tools: Read, Grep, Glob, Bash, Write, Edit
 argument-hint: "[figma-url]"
 ---
 

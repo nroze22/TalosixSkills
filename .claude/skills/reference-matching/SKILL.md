@@ -1,6 +1,6 @@
 ---
-name: reference-customer-matching
-description: Match Talosix reference customers to prospect profiles based on therapeutic area, study phase, company size, and geography, with talking points and usage tracking.
+name: reference-matching
+description: "Match Talosix reference customers to prospect profiles based on therapeutic area, study phase, company size, and geography, with talking points and usage tracking."
 ---
 
 # Reference Customer Matching

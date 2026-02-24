@@ -1,6 +1,6 @@
 ---
-name: ad-copy-creation
-description: Create ad copy for clinical trial audiences across Google Ads, LinkedIn Ads, and industry publication ads with multiple A/B variants and platform-specific character limit compliance.
+name: ad-copy
+description: "Create ad copy for clinical trial audiences across Google Ads, LinkedIn Ads, and industry publication ads with multiple A/B variants and platform-specific character limit compliance."
 ---
 
 # Ad Copy Creation for Talosix EDC

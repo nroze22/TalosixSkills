@@ -1,6 +1,6 @@
 ---
-name: marketing-content-generation
-description: Generate marketing content tailored for clinical trial EDC audiences including blog posts, thought leadership articles, and social media content with industry-appropriate tone and SEO optimization.
+name: marketing-content
+description: "Generate marketing content tailored for clinical trial EDC audiences including blog posts, thought leadership articles, and social media content with industry-appropriate tone and SEO optimization."
 ---
 
 # Marketing Content Generation for Talosix EDC

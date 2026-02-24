@@ -1,12 +1,7 @@
 ---
-name: product-requirements-document-generator
-description: Generate comprehensive PRDs for Talosix clinical trial EDC features, including regulatory considerations, user stories, and technical requirements.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__getConfluencePage
-  - mcp__claude_ai_Atlassian__createConfluencePage
+name: product-prd
+description: "Generate comprehensive PRDs for Talosix clinical trial EDC features, including regulatory considerations, user stories, and technical requirements."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__getConfluencePage, mcp__claude_ai_Atlassian__createConfluencePage
 argument-hint: "[Feature name or area, e.g. 'ePRO module', 'edit check builder', 'randomization engine']"
 ---
 

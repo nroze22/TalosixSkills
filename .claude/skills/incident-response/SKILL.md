@@ -1,11 +1,7 @@
 ---
 name: incident-response
-description: Production incident response framework for Talosix EDC systems. Covers severity classification with patient safety considerations, investigation steps, root cause analysis, communication templates, and CAPA follow-up.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Production incident response framework for Talosix EDC systems. Covers severity classification with patient safety considerations, investigation steps, root cause analysis, communication templates, and CAPA follow-up."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Incident Response Skill

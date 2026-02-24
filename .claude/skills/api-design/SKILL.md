@@ -1,11 +1,7 @@
 ---
 name: api-design
-description: Design RESTful APIs for Talosix EDC systems following best practices. Covers versioning, error handling, pagination, authentication, authorization, and OpenAPI specification generation.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Design RESTful APIs for Talosix EDC systems following best practices. Covers versioning, error handling, pagination, authentication, authorization, and OpenAPI specification generation."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # API Design for Clinical Trial EDC Systems

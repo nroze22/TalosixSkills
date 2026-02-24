@@ -1,11 +1,7 @@
 ---
 name: debugging-guide
-description: Systematic debugging methodology for Talosix EDC systems including log analysis, stack trace interpretation, database debugging, API debugging, and production issue investigation.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Systematic debugging methodology for Talosix EDC systems including log analysis, stack trace interpretation, database debugging, API debugging, and production issue investigation."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Debugging Guide for Talosix EDC

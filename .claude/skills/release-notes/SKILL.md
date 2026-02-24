@@ -1,11 +1,7 @@
 ---
-name: release-notes-generator
-description: Generate release notes from Jira tickets and git history in multiple formats (internal, customer-facing, regulatory) with compliance and validation impact statements.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__createConfluencePage
+name: release-notes
+description: "Generate release notes from Jira tickets and git history in multiple formats (internal, customer-facing, regulatory) with compliance and validation impact statements."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__createConfluencePage
 argument-hint: "[Version number or Jira fixVersion, e.g. 'v2.5.0' or 'Release 2025-Q1']"
 ---
 

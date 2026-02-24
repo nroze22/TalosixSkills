@@ -1,10 +1,7 @@
 ---
-name: feature-scoring-and-prioritization
-description: Data-driven feature prioritization for Talosix EDC using RICE, MoSCoW, and weighted scoring frameworks with regulatory impact consideration.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
+name: feature-scoring
+description: "Data-driven feature prioritization for Talosix EDC using RICE, MoSCoW, and weighted scoring frameworks with regulatory impact consideration."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__searchConfluenceUsingCql
 argument-hint: "[List of features to score, or 'pull from Jira' with project/filter details]"
 ---
 

@@ -1,11 +1,7 @@
 ---
 name: code-review
-description: Review code for quality, security, regulatory compliance, and clinical trial domain correctness. Enforces 21 CFR Part 11, HIPAA, and OWASP standards for Talosix EDC systems.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Review code for quality, security, regulatory compliance, and clinical trial domain correctness. Enforces 21 CFR Part 11, HIPAA, and OWASP standards for Talosix EDC systems."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Code Review for Clinical Trial EDC Software

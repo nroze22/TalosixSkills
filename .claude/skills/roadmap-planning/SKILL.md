@@ -1,12 +1,7 @@
 ---
 name: roadmap-planning
-description: Create product roadmaps for Talosix EDC platform tailored to different audiences (engineering, leadership, customers) with timelines, dependencies, and milestones.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__getVisibleJiraProjects
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__createConfluencePage
+description: "Create product roadmaps for Talosix EDC platform tailored to different audiences (engineering, leadership, customers) with timelines, dependencies, and milestones."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__getVisibleJiraProjects, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__createConfluencePage
 argument-hint: "[Audience: 'engineering' | 'leadership' | 'customer'] [Time horizon: 'quarterly' | 'annual']"
 ---
 

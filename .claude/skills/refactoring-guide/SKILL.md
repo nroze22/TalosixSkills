@@ -1,10 +1,7 @@
 ---
 name: refactoring-guide
-description: Guide safe refactoring in validated clinical trial systems. Performs impact analysis, regression risk assessment, and generates change control documentation for Talosix EDC software.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
+description: "Guide safe refactoring in validated clinical trial systems. Performs impact analysis, regression risk assessment, and generates change control documentation for Talosix EDC software."
+allowed-tools: Read, Grep, Glob
 ---
 
 # Refactoring Guide for Validated Clinical Trial Systems

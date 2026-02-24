@@ -1,6 +1,6 @@
 ---
-name: talosix-brand-voice
-description: Encodes Talosix brand voice, tone, vocabulary, and communication style for consistent content across all channels. Automatically loaded by other marketing skills as background context.
+name: brand-voice
+description: "Encodes Talosix brand voice, tone, vocabulary, and communication style for consistent content across all channels. Automatically loaded by other marketing skills as background context."
 user-invocable: false
 ---
 

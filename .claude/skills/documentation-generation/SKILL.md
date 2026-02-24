@@ -1,11 +1,7 @@
 ---
 name: documentation-generation
-description: Generate technical documentation from Talosix EDC codebases including API docs, architecture docs, runbooks, and GxP compliance documentation with IQ/OQ/PQ references.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+description: "Generate technical documentation from Talosix EDC codebases including API docs, architecture docs, runbooks, and GxP compliance documentation with IQ/OQ/PQ references."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # Documentation Generation for Talosix EDC

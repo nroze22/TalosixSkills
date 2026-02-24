@@ -1,10 +1,8 @@
 ---
 name: lead-magnet-creator
-description: Research and create lead magnet concepts and content for clinical trial audiences including checklists, templates, calculators, and guides with landing page copy, email gate copy, and follow-up nurture sequence outlines.
+description: "Research and create lead magnet concepts and content for clinical trial audiences including checklists, templates, calculators, and guides with landing page copy, email gate copy, and follow-up nurture sequence outlines."
 argument-hint: [topic-or-audience]
-allowed-tools:
-  - WebSearch
-  - WebFetch
+allowed-tools: WebSearch, WebFetch
 ---
 
 # Lead Magnet Creator for Talosix EDC

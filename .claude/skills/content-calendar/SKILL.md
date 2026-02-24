@@ -1,6 +1,6 @@
 ---
-name: content-calendar-planning
-description: Plan content calendars for Talosix clinical trial EDC marketing aligned with industry events, theme-based monthly planning, and cross-channel coordination across blog, social, email, and webinar.
+name: content-calendar
+description: "Plan content calendars for Talosix clinical trial EDC marketing aligned with industry events, theme-based monthly planning, and cross-channel coordination across blog, social, email, and webinar."
 ---
 
 # Content Calendar Planning for Talosix EDC

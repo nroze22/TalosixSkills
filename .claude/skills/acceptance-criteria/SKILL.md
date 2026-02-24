@@ -1,11 +1,7 @@
 ---
-name: acceptance-criteria-generator
-description: Generate detailed acceptance criteria for Talosix EDC user stories including positive/negative test cases, edge cases, and regulatory compliance criteria.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__editJiraIssue
-  - mcp__claude_ai_Atlassian__addCommentToJiraIssue
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
+name: acceptance-criteria
+description: "Generate detailed acceptance criteria for Talosix EDC user stories including positive/negative test cases, edge cases, and regulatory compliance criteria."
+allowed-tools: mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__editJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
 argument-hint: "[Jira ticket ID or user story description]"
 ---
 

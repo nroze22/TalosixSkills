@@ -1,6 +1,6 @@
 ---
-name: discovery-call-preparation
-description: Prepare for discovery calls with clinical trial prospects by researching their company, pipeline, therapeutic areas, and generating targeted questions mapped to Talosix solutions.
+name: discovery-call-prep
+description: "Prepare for discovery calls with clinical trial prospects by researching their company, pipeline, therapeutic areas, and generating targeted questions mapped to Talosix solutions."
 ---
 
 # Discovery Call Preparation

@@ -1,9 +1,7 @@
 ---
 name: user-interview-analysis
-description: Analyze user interview transcripts from clinical trial stakeholders (CROs, sponsors, sites) to extract themes, pain points, opportunities, and persona insights.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__createConfluencePage
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
+description: "Analyze user interview transcripts from clinical trial stakeholders (CROs, sponsors, sites) to extract themes, pain points, opportunities, and persona insights."
+allowed-tools: mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__searchConfluenceUsingCql
 argument-hint: "[Paste transcript text, or provide path to transcript file]"
 ---
 

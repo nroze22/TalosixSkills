@@ -1,10 +1,8 @@
 ---
 name: blog-post-engine
-description: Generate SEO-optimized blog posts for Talosix EDC with competitive research, keyword analysis, E-E-A-T signals, schema markup, and a complete distribution checklist targeting clinical trial operations audiences.
+description: "Generate SEO-optimized blog posts for Talosix EDC with competitive research, keyword analysis, E-E-A-T signals, schema markup, and a complete distribution checklist targeting clinical trial operations audiences."
 argument-hint: [topic-or-keyword]
-allowed-tools:
-  - WebSearch
-  - WebFetch
+allowed-tools: WebSearch, WebFetch
 ---
 
 # Blog Post Engine for Talosix EDC

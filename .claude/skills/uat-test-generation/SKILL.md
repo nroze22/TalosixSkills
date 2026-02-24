@@ -1,10 +1,7 @@
 ---
 name: uat-test-generation
 description: "Generate UAT test suites for CRO and sponsor users of the Talosix EDC platform. Produces business-language test scripts covering clinical workflows with clear pass/fail criteria. Formatted for Zephyr Scale."
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
+allowed-tools: Read, Grep, Glob
 ---
 
 # UAT Test Suite Generation

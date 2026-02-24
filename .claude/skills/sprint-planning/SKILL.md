@@ -1,12 +1,7 @@
 ---
 name: sprint-planning
-description: Help plan sprints for Talosix EDC development with story point estimation, capacity assessment, sprint goal definition, and Jira integration.
-allowed-tools:
-  - mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql
-  - mcp__claude_ai_Atlassian__getJiraIssue
-  - mcp__claude_ai_Atlassian__editJiraIssue
-  - mcp__claude_ai_Atlassian__addCommentToJiraIssue
-  - mcp__claude_ai_Atlassian__getVisibleJiraProjects
+description: "Help plan sprints for Talosix EDC development with story point estimation, capacity assessment, sprint goal definition, and Jira integration."
+allowed-tools: mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__editJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__claude_ai_Atlassian__getVisibleJiraProjects
 argument-hint: "[Sprint name/number] [Optional: Jira project key] [Optional: sprint dates]"
 ---
 

@@ -1,6 +1,6 @@
 ---
-name: edc-demo-script-generator
-description: Create tailored demo scripts for Talosix EDC product demonstrations, customized by audience type, therapeutic area, and competitive context with objection handling.
+name: demo-script
+description: "Create tailored demo scripts for Talosix EDC product demonstrations, customized by audience type, therapeutic area, and competitive context with objection handling."
 ---
 
 # EDC Demo Script Generator

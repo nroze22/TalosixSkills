@@ -1,11 +1,7 @@
 ---
 name: competitor-analysis
-description: Analyze competitors in the EDC and clinical trial technology space including feature comparison, pricing, market positioning, and SWOT analysis.
-allowed-tools:
-  - WebSearch
-  - mcp__claude_ai_Atlassian__searchConfluenceUsingCql
-  - mcp__claude_ai_Atlassian__getConfluencePage
-  - mcp__claude_ai_Atlassian__createConfluencePage
+description: "Analyze competitors in the EDC and clinical trial technology space including feature comparison, pricing, market positioning, and SWOT analysis."
+allowed-tools: WebSearch, mcp__claude_ai_Atlassian__searchConfluenceUsingCql, mcp__claude_ai_Atlassian__getConfluencePage, mcp__claude_ai_Atlassian__createConfluencePage
 argument-hint: "[Competitor name(s) or 'full landscape'] [Optional: specific area to compare, e.g. 'ePRO', 'edit checks', 'pricing']"
 ---
 

@@ -1,10 +1,8 @@
 ---
 name: one-pager-generator
-description: Generate professional one-pagers and sell sheets for Talosix EDC with multiple template types including product overview, use case, competitive comparison, and ROI-focused layouts with clinical trial compliance highlights.
+description: "Generate professional one-pagers and sell sheets for Talosix EDC with multiple template types including product overview, use case, competitive comparison, and ROI-focused layouts with clinical trial compliance highlights."
 argument-hint: [topic-or-feature]
-allowed-tools:
-  - WebSearch
-  - WebFetch
+allowed-tools: WebSearch, WebFetch
 ---
 
 # One-Pager Generator for Talosix EDC

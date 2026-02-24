@@ -1,10 +1,7 @@
 ---
 name: test-strategy
 description: "Create comprehensive test strategies for Talosix EDC platform releases. Covers risk-based testing, all test levels, regulatory validation (IQ/OQ/PQ), and resource planning for clinical trial software."
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
+allowed-tools: Read, Grep, Glob
 ---
 
 # Test Strategy Creation

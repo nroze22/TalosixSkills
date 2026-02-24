@@ -1,11 +1,7 @@
 ---
-name: cicd-pipeline-design
-description: Design and optimize CI/CD pipelines for Talosix EDC systems with GxP-compliant quality gates, automated testing, security scanning, and validated deployment strategies.
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
+name: cicd-pipeline
+description: "Design and optimize CI/CD pipelines for Talosix EDC systems with GxP-compliant quality gates, automated testing, security scanning, and validated deployment strategies."
+allowed-tools: Read, Grep, Glob, Bash
 ---
 
 # CI/CD Pipeline Design for Talosix EDC
