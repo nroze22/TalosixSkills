@@ -1,0 +1,177 @@
+{
+  "_README": "Talosix MCP Server Configuration for Claude Desktop / Claude Teams. Copy desired servers into your claude_desktop_config.json under 'mcpServers'. Replace all <PLACEHOLDER> values with your actual credentials.",
+
+  "mcpServers": {
+
+    "_comment_core": "=== CORE INTEGRATIONS (Essential for all team members) ===",
+
+    "mcp-atlassian": {
+      "_description": "Jira + Confluence - project management and documentation",
+      "_setup": "Get API token: https://id.atlassian.com/manage-profile/security/api-tokens",
+      "command": "npx",
+      "args": ["-y", "mcp-atlassian", "--port", "3002"],
+      "env": {
+        "CONFLUENCE_URL": "https://talosix.atlassian.net/wiki",
+        "CONFLUENCE_USERNAME": "<YOUR_EMAIL>@talosix.com",
+        "CONFLUENCE_API_TOKEN": "<YOUR_ATLASSIAN_API_TOKEN>",
+        "JIRA_URL": "https://talosix.atlassian.net",
+        "JIRA_USERNAME": "<YOUR_EMAIL>@talosix.com",
+        "JIRA_API_TOKEN": "<YOUR_ATLASSIAN_API_TOKEN>"
+      }
+    },
+
+    "github": {
+      "_description": "GitHub - PRs, issues, code review, branch management",
+      "_setup": "Create personal access token: https://github.com/settings/tokens (scopes: repo, read:org)",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITHUB_PAT>"
+      }
+    },
+
+    "slack": {
+      "_description": "Slack - read/post messages, search channels",
+      "_setup": "Create Slack app: https://api.slack.com/apps -> Bot Token Scopes: channels:history, channels:read, chat:write, users:read",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-slack"],
+      "env": {
+        "SLACK_BOT_TOKEN": "<YOUR_SLACK_BOT_TOKEN>",
+        "SLACK_TEAM_ID": "<YOUR_SLACK_TEAM_ID>"
+      }
+    },
+
+    "figma": {
+      "_description": "Figma - read designs, extract tokens, components. Supports Code to Canvas.",
+      "_setup": "Auth happens in Claude: type /mcp -> select figma -> Authenticate -> Allow Access",
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.figma.com/mcp"]
+    },
+
+    "postgres": {
+      "_description": "PostgreSQL - direct database queries and schema analysis",
+      "_setup": "Use your database connection string. For read-only safety, use a read replica or read-only user.",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres", "<YOUR_POSTGRES_CONNECTION_STRING>"]
+    },
+
+    "_comment_search": "=== SEARCH & RESEARCH ===",
+
+    "brave-search": {
+      "_description": "Web search via Brave Search API - competitive intel, research, lead gen",
+      "_setup": "Get free API key (2000 queries/mo): https://brave.com/search/api/",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "<YOUR_BRAVE_API_KEY>"
+      }
+    },
+
+    "pubmed": {
+      "_description": "PubMed - search medical/clinical trial research articles",
+      "_setup": "Get free NCBI API key: https://www.ncbi.nlm.nih.gov/account/settings/ (increases rate limit)",
+      "command": "npx",
+      "args": ["-y", "pubmed-mcp-server"],
+      "env": {
+        "NCBI_API_KEY": "<YOUR_NCBI_API_KEY>"
+      }
+    },
+
+    "_comment_productivity": "=== PRODUCTIVITY & THINKING ===",
+
+    "sequential-thinking": {
+      "_description": "Structured reasoning for complex multi-step problems - architecture, debugging, planning",
+      "_setup": "No API key needed. Just install.",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+
+    "memory": {
+      "_description": "Persistent memory across conversations using a knowledge graph",
+      "_setup": "No API key needed. Stores data locally.",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+
+    "filesystem": {
+      "_description": "Read/write/search local files - useful for working with documents",
+      "_setup": "Specify which directories Claude can access. Add paths to the args array.",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/<YOUR_USERNAME>/Documents", "/Users/<YOUR_USERNAME>/Desktop"]
+    },
+
+    "_comment_creative": "=== CREATIVE & DESIGN ===",
+
+    "stitch": {
+      "_description": "Google Stitch (formerly Galileo AI) - AI wireframe and UI generation",
+      "_setup": "Get API key from https://stitch.withgoogle.com/settings/api-keys",
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://stitch.withgoogle.com/mcp"],
+      "env": {
+        "STITCH_API_KEY": "<YOUR_STITCH_API_KEY>"
+      }
+    },
+
+    "canva": {
+      "_description": "Canva - create and edit designs, presentations, social media graphics",
+      "_setup": "Connect via Canva settings: https://www.canva.com/help/mcp-agent-setup/",
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.canva.com/mcp"]
+    },
+
+    "_comment_scraping": "=== WEB SCRAPING & LEAD GEN ===",
+
+    "firecrawl": {
+      "_description": "Web scraping - crawl websites, extract structured data, competitive intelligence",
+      "_setup": "Get API key: https://firecrawl.dev (free tier: 500 credits/month)",
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "<YOUR_FIRECRAWL_API_KEY>"
+      }
+    },
+
+    "_comment_microsoft": "=== MICROSOFT 365 ===",
+
+    "microsoft-teams": {
+      "_description": "Microsoft Teams - messages, channels, meeting transcripts (via Microsoft Graph)",
+      "_setup": "Requires Azure AD app registration with delegated permissions: ChannelMessage.Read, Chat.Read, OnlineMeetings.Read. See: https://learn.microsoft.com/en-us/graph/auth-register-app-v2",
+      "command": "npx",
+      "args": ["-y", "mcp-microsoft-graph"],
+      "env": {
+        "MS_CLIENT_ID": "<YOUR_AZURE_APP_CLIENT_ID>",
+        "MS_CLIENT_SECRET": "<YOUR_AZURE_APP_CLIENT_SECRET>",
+        "MS_TENANT_ID": "<YOUR_AZURE_TENANT_ID>"
+      }
+    },
+
+    "_comment_existing": "=== YOUR EXISTING SERVERS ===",
+
+    "playwright": {
+      "_description": "Browser automation - testing, screenshots, web interaction",
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+
+    "playwright_headless": {
+      "_description": "Headless browser automation - background web tasks",
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--headless"]
+    },
+
+    "twilio": {
+      "_description": "Twilio - SMS, voice, communications",
+      "command": "npx",
+      "args": ["-y", "@twilio-alpha/mcp", "--accountSid", "<YOUR_TWILIO_SID>", "--apiKey", "<YOUR_TWILIO_API_KEY>", "--apiSecret", "<YOUR_TWILIO_API_SECRET>"]
+    },
+
+    "vapi": {
+      "_description": "Vapi - voice AI agents",
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.vapi.ai/mcp", "--header", "Authorization: Bearer ${VAPI_TOKEN}"],
+      "env": {
+        "VAPI_TOKEN": "<YOUR_VAPI_TOKEN>"
+      }
+    }
+  }
+}
