@@ -1,7 +1,7 @@
 ---
 name: find-skill
 description: Find the right Talosix skill for any task. Describes what you want to do and get a recommendation for which skill(s) to use. Say "list all" to see every available skill organized by department.
-argument-hint: [what-you-want-to-do]
+argument-hint: "[what-you-want-to-do]"
 ---
 
 # Find the Right Skill

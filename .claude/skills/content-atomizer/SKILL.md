@@ -1,7 +1,7 @@
 ---
 name: content-atomizer
 description: "Transform a single piece of long-form content into 20+ platform-optimized content pieces including LinkedIn posts, Twitter threads, email snippets, one-pagers, slide talking points, infographic outlines, and newsletter sections for clinical trial audiences."
-argument-hint: [content-source]
+argument-hint: "[content-source]"
 allowed-tools: WebSearch, WebFetch
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: marketing-orchestrator
 description: Meta-skill that analyzes marketing goals and routes to the optimal sequence of marketing sub-skills. Orchestrates multi-step campaigns by chaining research, content creation, transformation, and distribution skills together using a three-layer architecture.
-argument-hint: [goal-or-campaign-type]
+argument-hint: "[goal-or-campaign-type]"
 ---
 
 # Marketing Orchestrator for Talosix EDC
